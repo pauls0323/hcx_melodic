@@ -37,7 +37,7 @@
                 izz="${2*m*r*r/5}" />
         </inertial>
     </xacro:macro>
-
+    <!-- 计算惯性矩阵的宏运算 -->
     <xacro:macro name="cylinder_inertial_matrix" params="m r h">
         <inertial>
             <mass value="${m}" />
