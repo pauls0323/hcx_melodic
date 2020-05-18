@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hsx/src
+CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hsx/build
+CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
 
 # Utility rule file for mbot_description_xacro_generated_to_devel_space_.
 
@@ -83,10 +83,10 @@ mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir
 .PHONY : mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/build
 
 mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/ss/catkin_ws_hsx/build/mbot_description && $(CMAKE_COMMAND) -P CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/ss/catkin_ws_hcx/build/mbot_description && $(CMAKE_COMMAND) -P CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/clean
 
 mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/ss/catkin_ws_hsx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hsx/src /home/ss/catkin_ws_hsx/src/mbot_description /home/ss/catkin_ws_hsx/build /home/ss/catkin_ws_hsx/build/mbot_description /home/ss/catkin_ws_hsx/build/mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/mbot_description /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/mbot_description /home/ss/catkin_ws_hcx/build/mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/depend
 

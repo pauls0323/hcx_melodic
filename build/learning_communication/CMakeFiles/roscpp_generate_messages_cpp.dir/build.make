@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hsx/src
+CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hsx/build
+CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
 
 # Utility rule file for roscpp_generate_messages_cpp.
 
@@ -83,10 +83,10 @@ learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/build: roscpp
 .PHONY : learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 
 learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/depend:
-	cd /home/ss/catkin_ws_hsx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hsx/src /home/ss/catkin_ws_hsx/src/learning_communication /home/ss/catkin_ws_hsx/build /home/ss/catkin_ws_hsx/build/learning_communication /home/ss/catkin_ws_hsx/build/learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/learning_communication /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/learning_communication /home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_communication/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 

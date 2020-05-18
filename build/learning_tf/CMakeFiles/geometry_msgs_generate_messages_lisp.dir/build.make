@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hsx/src
+CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hsx/build
+CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
 
 # Utility rule file for geometry_msgs_generate_messages_lisp.
 
@@ -83,10 +83,10 @@ learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build: geometry_
 .PHONY : learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 
 learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	cd /home/ss/catkin_ws_hsx/build/learning_tf && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ss/catkin_ws_hcx/build/learning_tf && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend:
-	cd /home/ss/catkin_ws_hsx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hsx/src /home/ss/catkin_ws_hsx/src/learning_tf /home/ss/catkin_ws_hsx/build /home/ss/catkin_ws_hsx/build/learning_tf /home/ss/catkin_ws_hsx/build/learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/learning_tf /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/learning_tf /home/ss/catkin_ws_hcx/build/learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_tf/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 

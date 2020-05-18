@@ -63,102 +63,102 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hsx/src
+CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hsx/build
+CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
 
 # Utility rule file for learning_communication_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/progress.make
 
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/Person.js
-learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/Person.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js
 
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionResult.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesResult.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from learning_communication/DoDishesActionResult.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionResult.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionResult.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from learning_communication/DoDishesActionResult.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionResult.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesFeedback.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from learning_communication/DoDishesActionFeedback.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from learning_communication/DoDishesFeedback.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesAction.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesResult.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionResult.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesGoal.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionGoal.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from learning_communication/DoDishesAction.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesAction.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from learning_communication/DoDishesResult.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionGoal.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesGoal.msg
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from learning_communication/DoDishesActionGoal.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesActionGoal.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from learning_communication/DoDishesGoal.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from learning_communication/DoDishesFeedback.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesFeedback.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/Person.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/Person.js: /home/ss/catkin_ws_hcx/src/learning_communication/msg/Person.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from learning_communication/Person.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/src/learning_communication/msg/Person.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from learning_communication/DoDishesResult.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesResult.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from learning_communication/DoDishesActionFeedback.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js: /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from learning_communication/DoDishesGoal.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesGoal.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesAction.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionGoal.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionResult.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from learning_communication/DoDishesAction.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesAction.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/Person.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/Person.js: /home/ss/catkin_ws_hsx/src/learning_communication/msg/Person.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from learning_communication/Person.msg"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/src/learning_communication/msg/Person.msg -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionGoal.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from learning_communication/DoDishesActionGoal.msg"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionGoal.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js: /home/ss/catkin_ws_hsx/src/learning_communication/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hsx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from learning_communication/AddTwoInts.srv"
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hsx/src/learning_communication/srv/AddTwoInts.srv -Ilearning_communication:/home/ss/catkin_ws_hsx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hsx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/srv
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js: /home/ss/catkin_ws_hcx/src/learning_communication/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from learning_communication/AddTwoInts.srv"
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ss/catkin_ws_hcx/src/learning_communication/srv/AddTwoInts.srv -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/srv
 
 learning_communication_generate_messages_nodejs: learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/msg/Person.js
-learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hsx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionResult.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesFeedback.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesResult.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesGoal.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/Person.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionFeedback.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesAction.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/msg/DoDishesActionGoal.js
+learning_communication_generate_messages_nodejs: /home/ss/catkin_ws_hcx/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js
 learning_communication_generate_messages_nodejs: learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/build.make
 
 .PHONY : learning_communication_generate_messages_nodejs
@@ -169,10 +169,10 @@ learning_communication/CMakeFiles/learning_communication_generate_messages_nodej
 .PHONY : learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/build
 
 learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/clean:
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/learning_communication_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/learning_communication_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/clean
 
 learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/depend:
-	cd /home/ss/catkin_ws_hsx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hsx/src /home/ss/catkin_ws_hsx/src/learning_communication /home/ss/catkin_ws_hsx/build /home/ss/catkin_ws_hsx/build/learning_communication /home/ss/catkin_ws_hsx/build/learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/learning_communication /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/learning_communication /home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/depend
 

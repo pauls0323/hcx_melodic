@@ -1,4 +1,4 @@
-prefix=/home/ss/catkin_ws_hsx/devel
+prefix=/home/ss/catkin_ws_hcx/devel
 
 Name: mbot_description
 Description: Description of mbot_description

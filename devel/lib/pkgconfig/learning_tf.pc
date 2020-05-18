@@ -1,4 +1,4 @@
-prefix=/home/ss/catkin_ws_hsx/devel
+prefix=/home/ss/catkin_ws_hcx/devel
 
 Name: learning_tf
 Description: Description of learning_tf

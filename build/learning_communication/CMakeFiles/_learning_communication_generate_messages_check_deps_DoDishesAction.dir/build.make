@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hsx/src
+CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hsx/build
+CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
 
 # Utility rule file for _learning_communication_generate_messages_check_deps_DoDishesAction.
 
@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /home/ss/catkin_ws_hsx/build
 include learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/progress.make
 
 learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction:
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_communication /home/ss/catkin_ws_hsx/devel/share/learning_communication/msg/DoDishesAction.msg actionlib_msgs/GoalID:learning_communication/DoDishesActionFeedback:learning_communication/DoDishesResult:learning_communication/DoDishesActionResult:actionlib_msgs/GoalStatus:learning_communication/DoDishesGoal:learning_communication/DoDishesActionGoal:std_msgs/Header:learning_communication/DoDishesFeedback
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_communication /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesAction.msg actionlib_msgs/GoalID:learning_communication/DoDishesActionGoal:learning_communication/DoDishesResult:actionlib_msgs/GoalStatus:learning_communication/DoDishesActionFeedback:learning_communication/DoDishesActionResult:std_msgs/Header:learning_communication/DoDishesGoal:learning_communication/DoDishesFeedback
 
 _learning_communication_generate_messages_check_deps_DoDishesAction: learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction
 _learning_communication_generate_messages_check_deps_DoDishesAction: learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/build.make
@@ -87,10 +87,10 @@ learning_communication/CMakeFiles/_learning_communication_generate_messages_chec
 .PHONY : learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/build
 
 learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/clean:
-	cd /home/ss/catkin_ws_hsx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/cmake_clean.cmake
+	cd /home/ss/catkin_ws_hcx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/cmake_clean.cmake
 .PHONY : learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/clean
 
 learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/depend:
-	cd /home/ss/catkin_ws_hsx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hsx/src /home/ss/catkin_ws_hsx/src/learning_communication /home/ss/catkin_ws_hsx/build /home/ss/catkin_ws_hsx/build/learning_communication /home/ss/catkin_ws_hsx/build/learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/learning_communication /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/learning_communication /home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_DoDishesAction.dir/depend
 

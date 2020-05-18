@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_499ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_499ca.dir/build.make CMakeFiles/cmTC_499ca.dir/build
-make[1]: Entering directory '/home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_499ca.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_499ca.dir/src.c.o   -c /home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_499ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_499ca.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_499ca.dir/src.c.o  -o cmTC_499ca 
-CMakeFiles/cmTC_499ca.dir/src.c.o: In function `main':
+Run Build Command(s):/usr/bin/make cmTC_6e305/fast && /usr/bin/make  -f CMakeFiles/cmTC_6e305.dir/build.make CMakeFiles/cmTC_6e305.dir/build
+make[1]: Entering directory '/home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e305.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6e305.dir/src.c.o   -c /home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6e305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e305.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_6e305.dir/src.c.o  -o cmTC_6e305 
+CMakeFiles/cmTC_6e305.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_499ca.dir/build.make:106: recipe for target 'cmTC_499ca' failed
-make[1]: *** [cmTC_499ca] Error 1
-make[1]: Leaving directory '/home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_499ca/fast' failed
-make: *** [cmTC_499ca/fast] Error 2
+CMakeFiles/cmTC_6e305.dir/build.make:106: recipe for target 'cmTC_6e305' failed
+make[1]: *** [cmTC_6e305] Error 1
+make[1]: Leaving directory '/home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_6e305/fast' failed
+make: *** [cmTC_6e305/fast] Error 2
 
 
 Source file was:
@@ -44,22 +44,22 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5490b/fast && /usr/bin/make  -f CMakeFiles/cmTC_5490b.dir/build.make CMakeFiles/cmTC_5490b.dir/build
-make[1]: Entering directory '/home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5490b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5490b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5490b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5490b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5490b.dir/CheckFunctionExists.c.o  -o cmTC_5490b  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_2e16a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2e16a.dir/build.make CMakeFiles/cmTC_2e16a.dir/build
+make[1]: Entering directory '/home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e16a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2e16a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e16a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e16a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2e16a.dir/CheckFunctionExists.c.o  -o cmTC_2e16a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5490b.dir/build.make:106: recipe for target 'cmTC_5490b' failed
-make[1]: *** [cmTC_5490b] Error 1
-make[1]: Leaving directory '/home/ss/catkin_ws_hsx/build/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_5490b/fast' failed
-make: *** [cmTC_5490b/fast] Error 2
+CMakeFiles/cmTC_2e16a.dir/build.make:106: recipe for target 'cmTC_2e16a' failed
+make[1]: *** [cmTC_2e16a] Error 1
+make[1]: Leaving directory '/home/ss/catkin_ws_hcx/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_2e16a/fast' failed
+make: *** [cmTC_2e16a/fast] Error 2
 
 
 

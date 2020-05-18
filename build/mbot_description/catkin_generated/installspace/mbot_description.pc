@@ -1,4 +1,4 @@
-prefix=/home/ss/catkin_ws_hsx/install
+prefix=/home/ss/catkin_ws_hcx/install
 
 Name: mbot_description
 Description: Description of mbot_description

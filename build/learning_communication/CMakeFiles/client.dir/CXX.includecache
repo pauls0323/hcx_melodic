@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ss/catkin_ws_hsx/devel/include/learning_communication/AddTwoInts.h
+/home/ss/catkin_ws_hcx/devel/include/learning_communication/AddTwoInts.h
 ros/service_traits.h
 -
 learning_communication/AddTwoIntsRequest.h
@@ -14,7 +14,7 @@ learning_communication/AddTwoIntsRequest.h
 learning_communication/AddTwoIntsResponse.h
 -
 
-/home/ss/catkin_ws_hsx/devel/include/learning_communication/AddTwoIntsRequest.h
+/home/ss/catkin_ws_hcx/devel/include/learning_communication/AddTwoIntsRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ss/catkin_ws_hsx/devel/include/learning_communication/AddTwoIntsResponse.h
+/home/ss/catkin_ws_hcx/devel/include/learning_communication/AddTwoIntsResponse.h
 string
 -
 vector
@@ -46,13 +46,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ss/catkin_ws_hsx/src/learning_communication/src/client.cpp
+/home/ss/catkin_ws_hcx/src/learning_communication/src/client.cpp
 cstdlib
 -
 ros/ros.h
-/home/ss/catkin_ws_hsx/src/learning_communication/src/ros/ros.h
+/home/ss/catkin_ws_hcx/src/learning_communication/src/ros/ros.h
 learning_communication/AddTwoInts.h
-/home/ss/catkin_ws_hsx/src/learning_communication/src/learning_communication/AddTwoInts.h
+/home/ss/catkin_ws_hcx/src/learning_communication/src/learning_communication/AddTwoInts.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

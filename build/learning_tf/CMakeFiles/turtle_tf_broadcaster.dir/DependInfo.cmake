@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ss/catkin_ws_hsx/src/learning_tf/src/turtle_tf_broadcaster.cpp" "/home/ss/catkin_ws_hsx/build/learning_tf/CMakeFiles/turtle_tf_broadcaster.dir/src/turtle_tf_broadcaster.cpp.o"
+  "/home/ss/catkin_ws_hcx/src/learning_tf/src/turtle_tf_broadcaster.cpp" "/home/ss/catkin_ws_hcx/build/learning_tf/CMakeFiles/turtle_tf_broadcaster.dir/src/turtle_tf_broadcaster.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
