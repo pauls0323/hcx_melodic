@@ -418,6 +418,12 @@ mbot_description_BINARY_DIR:STATIC=/home/ss/catkin_ws_hcx/build/mbot_description
 //Value Computed by CMake
 mbot_description_SOURCE_DIR:STATIC=/home/ss/catkin_ws_hcx/src/mbot_description
 
+//Value Computed by CMake
+mbot_teleop_BINARY_DIR:STATIC=/home/ss/catkin_ws_hcx/build/mbot_teleop
+
+//Value Computed by CMake
+mbot_teleop_SOURCE_DIR:STATIC=/home/ss/catkin_ws_hcx/src/mbot_teleop
+
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
 
@@ -617,7 +623,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

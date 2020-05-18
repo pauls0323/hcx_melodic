@@ -1,2 +1,2 @@
-learning_communication:learning_tf:mbot_description
+learning_communication:learning_tf:mbot_description:mbot_teleop
 -DCATKIN_DEVEL_PREFIX=/home/ss/catkin_ws_hcx/devel -DCMAKE_INSTALL_PREFIX=/home/ss/catkin_ws_hcx/install -G Unix Makefiles

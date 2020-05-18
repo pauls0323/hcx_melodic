@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("mbot_teleop")
 subdirs("learning_communication")
 subdirs("learning_tf")
 subdirs("mbot_description")
