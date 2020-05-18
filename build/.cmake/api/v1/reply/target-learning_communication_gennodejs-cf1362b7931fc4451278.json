@@ -1,0 +1,69 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/ss/catkin_ws_hcx/build/learning_communication/cmake/learning_communication-genmsg.cmake",
+			"/opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake",
+			"learning_communication/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 451,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 452,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "learning_communication_generate_messages_nodejs::@7b9820ac1cee46a5ce2f"
+		}
+	],
+	"id" : "learning_communication_gennodejs::@7b9820ac1cee46a5ce2f",
+	"name" : "learning_communication_gennodejs",
+	"paths" : 
+	{
+		"build" : "learning_communication",
+		"source" : "learning_communication"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
