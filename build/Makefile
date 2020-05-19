@@ -565,6 +565,45 @@ rosgraph_msgs_generate_messages_lisp/fast:
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named tts_subscribe
+
+# Build rule for target.
+tts_subscribe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tts_subscribe
+.PHONY : tts_subscribe
+
+# fast build rule for target.
+tts_subscribe/fast:
+	$(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/build
+.PHONY : tts_subscribe/fast
+
+#=============================================================================
+# Target rules for targets named iat_publish
+
+# Build rule for target.
+iat_publish: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iat_publish
+.PHONY : iat_publish
+
+# fast build rule for target.
+iat_publish/fast:
+	$(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/build
+.PHONY : iat_publish/fast
+
+#=============================================================================
+# Target rules for targets named voice_assistant
+
+# Build rule for target.
+voice_assistant: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 voice_assistant
+.PHONY : voice_assistant
+
+# fast build rule for target.
+voice_assistant/fast:
+	$(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/build
+.PHONY : voice_assistant/fast
+
+#=============================================================================
 # Target rules for targets named DoDishes_server
 
 # Build rule for target.
@@ -2197,11 +2236,14 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... iat_publish"
 	@echo "... listener"
 	@echo "... server"
 	@echo "... talker"
+	@echo "... tts_subscribe"
 	@echo "... turtle_tf_broadcaster"
 	@echo "... turtle_tf_listener"
+	@echo "... voice_assistant"
 .PHONY : help
 
 
