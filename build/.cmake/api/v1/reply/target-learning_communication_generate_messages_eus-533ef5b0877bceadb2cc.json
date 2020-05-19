@@ -1,0 +1,270 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/ss/catkin_ws_hcx/build/learning_communication/cmake/learning_communication-genmsg.cmake",
+			"/opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake",
+			"learning_communication/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 231,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 578,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 581,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_eus::@28387930815f2c96b0e9"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "actionlib_msgs_generate_messages_eus::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_learning_communication_generate_messages_check_deps_AddTwoInts::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesActionFeedback::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_learning_communication_generate_messages_check_deps_Person::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesActionResult::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesFeedback::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesResult::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesGoal::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesActionGoal::@7b9820ac1cee46a5ce2f"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_learning_communication_generate_messages_check_deps_DoDishesAction::@7b9820ac1cee46a5ce2f"
+		}
+	],
+	"id" : "learning_communication_generate_messages_eus::@7b9820ac1cee46a5ce2f",
+	"name" : "learning_communication_generate_messages_eus",
+	"paths" : 
+	{
+		"build" : "learning_communication",
+		"source" : "learning_communication"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/learning_communication_generate_messages_eus",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/learning_communication_generate_messages_eus.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesActionResult.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesFeedback.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesResult.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesGoal.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/Person.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesActionFeedback.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesAction.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/msg/DoDishesActionGoal.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/srv/AddTwoInts.l.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ss/catkin_ws_hcx/devel/share/roseus/ros/learning_communication/manifest.l.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

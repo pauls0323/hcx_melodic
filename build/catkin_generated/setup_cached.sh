@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PATH="/opt/ros/melodic/bin:/home/ss/.local/bin:/home/software_src/ninja-1.10.0/build-cmake:/home/ss/.local/bin:/home/software_src/ninja-1.10.0/build-cmake:/home/ss/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin"
 export PWD="/home/ss/catkin_ws_hcx/build"

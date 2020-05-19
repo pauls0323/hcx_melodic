@@ -1,2 +1,2 @@
-learning_communication:learning_tf:mbot_description:mbot_gazebo:mbot_teleop:robot_vision:robot_voice
+learning_communication:learning_tf:mbot_bringup:mbot_description:mbot_gazebo:mbot_navigation:mbot_teleop:robot_vision:robot_voice
 -DCATKIN_DEVEL_PREFIX=/home/ss/catkin_ws_hcx/devel -DCMAKE_INSTALL_PREFIX=/home/ss/catkin_ws_hcx/install -G Unix Makefiles
