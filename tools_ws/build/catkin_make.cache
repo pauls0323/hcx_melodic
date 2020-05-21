@@ -1,0 +1,2 @@
+manipulation_msgs
+-DCATKIN_DEVEL_PREFIX=/home/ss/hcx/tools_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ss/hcx/tools_ws/install -G Unix Makefiles

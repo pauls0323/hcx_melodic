@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH="/home/ss/hcx/nav_ws/devel/bin:/home/ss/hcx/google_ws/install_isolated/bin:/opt/ros/melodic/bin:/home/ss/.local/bin:/home/software_src/ninja-1.10.0/build-cmake:/home/ss/.local/bin:/home/software_src/ninja-1.10.0/build-cmake:/home/ss/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin"
 export PWD="/home/ss/hcx/catkin_ws/build"
-export ROS_PACKAGE_PATH="/home/ss/catkin_ws_hsx/src:/home/ss/catkin_ws_hcx/src:/home/ss/hcx/catkin_ws/src:/opt/ros/melodic/share"

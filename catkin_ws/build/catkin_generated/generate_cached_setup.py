@@ -12,7 +12,7 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/ss/hcx/catkin_ws/devel;/opt/ros/melodic'.split(';'):
+    for workspace in '/home/ss/hcx/nav_ws/devel;/home/ss/hcx/google_ws/devel_isolated/cartographer_rviz;/home/ss/hcx/google_ws/install_isolated;/home/ss/hcx/catkin_ws/devel;/opt/ros/melodic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)

@@ -360,6 +360,9 @@ cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/melodic/share/cv_bridge/cmake
 
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/melodic/share/diagnostic_msgs/cmake
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
 
@@ -448,6 +451,9 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //The directory containing a CMake configuration file for hardware_interface.
 hardware_interface_DIR:PATH=/opt/ros/melodic/share/hardware_interface/cmake
 
+//The directory containing a CMake configuration file for household_objects_database_msgs.
+household_objects_database_msgs_DIR:PATH=household_objects_database_msgs_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
 
@@ -467,7 +473,22 @@ learning_tf_BINARY_DIR:STATIC=/home/ss/hcx/catkin_ws/build/learning_tf
 learning_tf_SOURCE_DIR:STATIC=/home/ss/hcx/catkin_ws/src/learning_tf
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/melodic/lib/librostime.so
+
+//Value Computed by CMake
+manipulation_msgs_BINARY_DIR:STATIC=/home/ss/hcx/catkin_ws/build/manipulation_msgs
+
+//The directory containing a CMake configuration file for manipulation_msgs.
+manipulation_msgs_DIR:PATH=manipulation_msgs_DIR-NOTFOUND
+
+//Value Computed by CMake
+manipulation_msgs_SOURCE_DIR:STATIC=/home/ss/hcx/catkin_ws/src/manipulation_msgs
+
+//Value Computed by CMake
+marm_planning_BINARY_DIR:STATIC=/home/ss/hcx/catkin_ws/build/marm_planning
+
+//Value Computed by CMake
+marm_planning_SOURCE_DIR:STATIC=/home/ss/hcx/catkin_ws/src/marm_planning
 
 //Value Computed by CMake
 mbot_bringup_BINARY_DIR:STATIC=/home/ss/hcx/catkin_ws/build/mbot_bringup
@@ -570,6 +591,9 @@ rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for shape_msgs.
+shape_msgs_DIR:PATH=/opt/ros/melodic/share/shape_msgs/cmake
 
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/melodic/share/smclib/cmake
@@ -731,7 +755,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
