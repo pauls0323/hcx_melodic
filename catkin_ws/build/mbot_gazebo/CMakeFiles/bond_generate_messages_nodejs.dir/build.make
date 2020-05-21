@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Utility rule file for bond_generate_messages_nodejs.
 
@@ -83,10 +83,10 @@ mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/build: bond_generate_me
 .PHONY : mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/build
 
 mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/mbot_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/bond_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/mbot_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/bond_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/clean
 
 mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/mbot_gazebo /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/mbot_gazebo /home/ss/catkin_ws_hcx/build/mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/mbot_gazebo /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/mbot_gazebo /home/ss/hcx/catkin_ws/build/mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mbot_gazebo/CMakeFiles/bond_generate_messages_nodejs.dir/depend
 

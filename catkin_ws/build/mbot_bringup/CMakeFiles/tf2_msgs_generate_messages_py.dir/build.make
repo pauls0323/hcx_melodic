@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -83,10 +83,10 @@ mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/build: tf2_msgs_genera
 .PHONY : mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/mbot_bringup /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/mbot_bringup /home/ss/catkin_ws_hcx/build/mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/mbot_bringup /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/mbot_bringup /home/ss/hcx/catkin_ws/build/mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mbot_bringup/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 

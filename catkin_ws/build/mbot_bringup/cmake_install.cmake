@@ -1,8 +1,8 @@
-# Install script for directory: /home/ss/catkin_ws_hcx/src/mbot_bringup
+# Install script for directory: /home/ss/hcx/catkin_ws/src/mbot_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ss/catkin_ws_hcx/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ss/hcx/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ss/catkin_ws_hcx/build/mbot_bringup/catkin_generated/installspace/mbot_bringup.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ss/hcx/catkin_ws/build/mbot_bringup/catkin_generated/installspace/mbot_bringup.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_bringup/cmake" TYPE FILE FILES
-    "/home/ss/catkin_ws_hcx/build/mbot_bringup/catkin_generated/installspace/mbot_bringupConfig.cmake"
-    "/home/ss/catkin_ws_hcx/build/mbot_bringup/catkin_generated/installspace/mbot_bringupConfig-version.cmake"
+    "/home/ss/hcx/catkin_ws/build/mbot_bringup/catkin_generated/installspace/mbot_bringupConfig.cmake"
+    "/home/ss/hcx/catkin_ws/build/mbot_bringup/catkin_generated/installspace/mbot_bringupConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_bringup" TYPE FILE FILES "/home/ss/catkin_ws_hcx/src/mbot_bringup/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_bringup" TYPE FILE FILES "/home/ss/hcx/catkin_ws/src/mbot_bringup/package.xml")
 endif()
 

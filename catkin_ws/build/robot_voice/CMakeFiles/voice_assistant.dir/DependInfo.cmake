@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ss/catkin_ws_hcx/src/robot_voice/src/voice_assistant.cpp" "/home/ss/catkin_ws_hcx/build/robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o"
+  "/home/ss/hcx/catkin_ws/src/robot_voice/src/voice_assistant.cpp" "/home/ss/hcx/catkin_ws/build/robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/ss/catkin_ws_hcx/src/robot_voice/include"
+  "/home/ss/hcx/catkin_ws/src/robot_voice/include"
   )
 
 # Targets to which this target links.

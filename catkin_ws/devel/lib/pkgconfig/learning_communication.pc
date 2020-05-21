@@ -1,8 +1,8 @@
-prefix=/home/ss/catkin_ws_hcx/devel
+prefix=/home/ss/hcx/catkin_ws/devel
 
 Name: learning_communication
 Description: Description of learning_communication
 Version: 0.0.0
-Cflags: -I/home/ss/catkin_ws_hcx/devel/include
+Cflags: -I/home/ss/hcx/catkin_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy std_msgs message_runtime

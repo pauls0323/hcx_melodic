@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/listener"
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/listener.pdb"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/listener"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/listener.pdb"
   "CMakeFiles/listener.dir/src/listener.cpp.o"
 )
 

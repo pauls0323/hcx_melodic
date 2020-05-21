@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -83,10 +83,10 @@ mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_genera
 .PHONY : mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/mbot_navigation && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/mbot_navigation && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/mbot_navigation /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/mbot_navigation /home/ss/catkin_ws_hcx/build/mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/mbot_navigation /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/mbot_navigation /home/ss/hcx/catkin_ws/build/mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mbot_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

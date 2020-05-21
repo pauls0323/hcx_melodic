@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ss/catkin_ws_hcx/devel/lib/robot_voice/tts_subscribe"
-  "/home/ss/catkin_ws_hcx/devel/lib/robot_voice/tts_subscribe.pdb"
+  "/home/ss/hcx/catkin_ws/devel/lib/robot_voice/tts_subscribe"
+  "/home/ss/hcx/catkin_ws/devel/lib/robot_voice/tts_subscribe.pdb"
   "CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o"
 )
 

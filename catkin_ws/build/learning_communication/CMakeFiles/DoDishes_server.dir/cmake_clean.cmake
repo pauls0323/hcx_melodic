@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/DoDishes_server"
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/DoDishes_server.pdb"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/DoDishes_server"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/DoDishes_server.pdb"
   "CMakeFiles/DoDishes_server.dir/src/DoDishes_server.cpp.o"
 )
 

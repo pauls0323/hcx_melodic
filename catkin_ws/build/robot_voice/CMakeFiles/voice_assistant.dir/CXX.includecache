@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_cmn.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_cmn.h
 msp_types.h
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_types.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_types.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_errors.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_errors.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_types.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_types.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/qtts.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/qtts.h
 msp_types.h
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_types.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_types.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/src/voice_assistant.cpp
+/home/ss/hcx/catkin_ws/src/robot_voice/src/voice_assistant.cpp
 iostream
 -
 stdio.h
@@ -34,15 +34,15 @@ errno.h
 time.h
 -
 robot_voice/qtts.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/qtts.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/qtts.h
 robot_voice/msp_cmn.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/msp_cmn.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/msp_cmn.h
 robot_voice/msp_errors.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/msp_errors.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/msp_errors.h
 ros/ros.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/ros/ros.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/ros/ros.h
 std_msgs/String.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/std_msgs/String.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/std_msgs/String.h
 sstream
 -
 sys/types.h

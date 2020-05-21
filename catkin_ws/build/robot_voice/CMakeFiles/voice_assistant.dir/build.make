@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include robot_voice/CMakeFiles/voice_assistant.dir/depend.make
@@ -78,17 +78,17 @@ include robot_voice/CMakeFiles/voice_assistant.dir/progress.make
 include robot_voice/CMakeFiles/voice_assistant.dir/flags.make
 
 robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o: robot_voice/CMakeFiles/voice_assistant.dir/flags.make
-robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o: /home/ss/catkin_ws_hcx/src/robot_voice/src/voice_assistant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o"
-	cd /home/ss/catkin_ws_hcx/build/robot_voice && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o -c /home/ss/catkin_ws_hcx/src/robot_voice/src/voice_assistant.cpp
+robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o: /home/ss/hcx/catkin_ws/src/robot_voice/src/voice_assistant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o"
+	cd /home/ss/hcx/catkin_ws/build/robot_voice && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o -c /home/ss/hcx/catkin_ws/src/robot_voice/src/voice_assistant.cpp
 
 robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.i"
-	cd /home/ss/catkin_ws_hcx/build/robot_voice && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/catkin_ws_hcx/src/robot_voice/src/voice_assistant.cpp > CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.i
+	cd /home/ss/hcx/catkin_ws/build/robot_voice && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/hcx/catkin_ws/src/robot_voice/src/voice_assistant.cpp > CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.i
 
 robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.s"
-	cd /home/ss/catkin_ws_hcx/build/robot_voice && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/catkin_ws_hcx/src/robot_voice/src/voice_assistant.cpp -o CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.s
+	cd /home/ss/hcx/catkin_ws/build/robot_voice && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/hcx/catkin_ws/src/robot_voice/src/voice_assistant.cpp -o CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.s
 
 # Object files for target voice_assistant
 voice_assistant_OBJECTS = \
@@ -97,40 +97,40 @@ voice_assistant_OBJECTS = \
 # External object files for target voice_assistant
 voice_assistant_EXTERNAL_OBJECTS =
 
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/build.make
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libroscpp.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librosconsole.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librostime.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libcpp_common.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant"
-	cd /home/ss/catkin_ws_hcx/build/robot_voice && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/voice_assistant.dir/link.txt --verbose=$(VERBOSE)
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/build.make
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libroscpp.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librosconsole.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/librostime.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /opt/ros/melodic/lib/libcpp_common.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant"
+	cd /home/ss/hcx/catkin_ws/build/robot_voice && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/voice_assistant.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-robot_voice/CMakeFiles/voice_assistant.dir/build: /home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant
+robot_voice/CMakeFiles/voice_assistant.dir/build: /home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant
 
 .PHONY : robot_voice/CMakeFiles/voice_assistant.dir/build
 
 robot_voice/CMakeFiles/voice_assistant.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/robot_voice && $(CMAKE_COMMAND) -P CMakeFiles/voice_assistant.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/robot_voice && $(CMAKE_COMMAND) -P CMakeFiles/voice_assistant.dir/cmake_clean.cmake
 .PHONY : robot_voice/CMakeFiles/voice_assistant.dir/clean
 
 robot_voice/CMakeFiles/voice_assistant.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/robot_voice /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/robot_voice /home/ss/catkin_ws_hcx/build/robot_voice/CMakeFiles/voice_assistant.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/robot_voice /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/robot_voice /home/ss/hcx/catkin_ws/build/robot_voice/CMakeFiles/voice_assistant.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_voice/CMakeFiles/voice_assistant.dir/depend
 

@@ -63,102 +63,102 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Utility rule file for learning_communication_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/progress.make
 
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp
-learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp
+learning_communication/CMakeFiles/learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp
 
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionResult.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from learning_communication/DoDishesActionResult.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionResult.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp: /home/ss/hcx/catkin_ws/src/learning_communication/msg/Person.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from learning_communication/Person.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/src/learning_communication/msg/Person.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from learning_communication/DoDishesFeedback.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionResult.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesResult.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from learning_communication/DoDishesActionResult.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionResult.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from learning_communication/DoDishesResult.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionGoal.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesGoal.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from learning_communication/DoDishesActionGoal.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionGoal.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from learning_communication/DoDishesGoal.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from learning_communication/DoDishesGoal.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesGoal.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp: /home/ss/catkin_ws_hcx/src/learning_communication/msg/Person.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from learning_communication/Person.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/src/learning_communication/msg/Person.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from learning_communication/DoDishesFeedback.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesFeedback.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from learning_communication/DoDishesActionFeedback.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from learning_communication/DoDishesResult.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesResult.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesAction.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionGoal.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesResult.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionResult.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from learning_communication/DoDishesAction.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesAction.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesFeedback.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from learning_communication/DoDishesActionFeedback.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionFeedback.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionGoal.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesGoal.msg
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from learning_communication/DoDishesActionGoal.msg"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/devel/share/learning_communication/msg/DoDishesActionGoal.msg -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesAction.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesGoal.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionGoal.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionResult.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesFeedback.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesActionFeedback.msg
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp: /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from learning_communication/DoDishesAction.msg"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/devel/share/learning_communication/msg/DoDishesAction.msg -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg
 
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp: /home/ss/catkin_ws_hcx/src/learning_communication/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from learning_communication/AddTwoInts.srv"
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/catkin_ws_hcx/src/learning_communication/srv/AddTwoInts.srv -Ilearning_communication:/home/ss/catkin_ws_hcx/src/learning_communication/msg -Ilearning_communication:/home/ss/catkin_ws_hcx/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/srv
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp: /home/ss/hcx/catkin_ws/src/learning_communication/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from learning_communication/AddTwoInts.srv"
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ss/hcx/catkin_ws/src/learning_communication/srv/AddTwoInts.srv -Ilearning_communication:/home/ss/hcx/catkin_ws/src/learning_communication/msg -Ilearning_communication:/home/ss/hcx/catkin_ws/devel/share/learning_communication/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p learning_communication -o /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/srv
 
 learning_communication_generate_messages_lisp: learning_communication/CMakeFiles/learning_communication_generate_messages_lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp
-learning_communication_generate_messages_lisp: /home/ss/catkin_ws_hcx/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionResult.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionGoal.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesGoal.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesFeedback.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesResult.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesActionFeedback.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/DoDishesAction.lisp
+learning_communication_generate_messages_lisp: /home/ss/hcx/catkin_ws/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp
 learning_communication_generate_messages_lisp: learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/build.make
 
 .PHONY : learning_communication_generate_messages_lisp
@@ -169,10 +169,10 @@ learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.
 .PHONY : learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/build
 
 learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/learning_communication_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/learning_communication_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/clean
 
 learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/learning_communication /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/learning_communication /home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/learning_communication /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/learning_communication /home/ss/hcx/catkin_ws/build/learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_communication/CMakeFiles/learning_communication_generate_messages_lisp.dir/depend
 

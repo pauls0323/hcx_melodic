@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/server"
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/server.pdb"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/server"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/server.pdb"
   "CMakeFiles/server.dir/src/server.cpp.o"
 )
 

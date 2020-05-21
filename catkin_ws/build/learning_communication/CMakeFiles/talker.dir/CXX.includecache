@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ss/catkin_ws_hcx/src/learning_communication/src/talker.cpp
+/home/ss/hcx/catkin_ws/src/learning_communication/src/talker.cpp
 sstream
 -
 ros/ros.h
-/home/ss/catkin_ws_hcx/src/learning_communication/src/ros/ros.h
+/home/ss/hcx/catkin_ws/src/learning_communication/src/ros/ros.h
 std_msgs/String.h
-/home/ss/catkin_ws_hcx/src/learning_communication/src/std_msgs/String.h
+/home/ss/hcx/catkin_ws/src/learning_communication/src/std_msgs/String.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

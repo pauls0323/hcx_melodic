@@ -1,8 +1,8 @@
-# Install script for directory: /home/ss/catkin_ws_hcx/src/mbot_teleop
+# Install script for directory: /home/ss/hcx/catkin_ws/src/mbot_teleop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ss/catkin_ws_hcx/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ss/hcx/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ss/catkin_ws_hcx/build/mbot_teleop/catkin_generated/installspace/mbot_teleop.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ss/hcx/catkin_ws/build/mbot_teleop/catkin_generated/installspace/mbot_teleop.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_teleop/cmake" TYPE FILE FILES
-    "/home/ss/catkin_ws_hcx/build/mbot_teleop/catkin_generated/installspace/mbot_teleopConfig.cmake"
-    "/home/ss/catkin_ws_hcx/build/mbot_teleop/catkin_generated/installspace/mbot_teleopConfig-version.cmake"
+    "/home/ss/hcx/catkin_ws/build/mbot_teleop/catkin_generated/installspace/mbot_teleopConfig.cmake"
+    "/home/ss/hcx/catkin_ws/build/mbot_teleop/catkin_generated/installspace/mbot_teleopConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_teleop" TYPE FILE FILES "/home/ss/catkin_ws_hcx/src/mbot_teleop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_teleop" TYPE FILE FILES "/home/ss/hcx/catkin_ws/src/mbot_teleop/package.xml")
 endif()
 

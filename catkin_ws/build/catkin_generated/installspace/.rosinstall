@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ss/catkin_ws_hcx/install/setup.sh
+    local-name: /home/ss/hcx/catkin_ws/install/setup.sh

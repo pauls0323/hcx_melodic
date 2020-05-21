@@ -67,14 +67,14 @@ set(mbot_teleop_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mbot_teleop_SOURCE_PREFIX /home/ss/catkin_ws_hcx/src/mbot_teleop)
-  set(mbot_teleop_DEVEL_PREFIX /home/ss/catkin_ws_hcx/devel)
+  set(mbot_teleop_SOURCE_PREFIX /home/ss/hcx/catkin_ws/src/mbot_teleop)
+  set(mbot_teleop_DEVEL_PREFIX /home/ss/hcx/catkin_ws/devel)
   set(mbot_teleop_INSTALL_PREFIX "")
   set(mbot_teleop_PREFIX ${mbot_teleop_DEVEL_PREFIX})
 else()
   set(mbot_teleop_SOURCE_PREFIX "")
   set(mbot_teleop_DEVEL_PREFIX "")
-  set(mbot_teleop_INSTALL_PREFIX /home/ss/catkin_ws_hcx/install)
+  set(mbot_teleop_INSTALL_PREFIX /home/ss/hcx/catkin_ws/install)
   set(mbot_teleop_PREFIX ${mbot_teleop_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ss/catkin_ws_hcx/install/lib;/home/ss/catkin_ws_hcx/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/ss/hcx/catkin_ws/install/lib;/home/ss/hcx/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

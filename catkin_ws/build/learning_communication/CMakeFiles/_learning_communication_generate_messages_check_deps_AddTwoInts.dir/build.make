@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Utility rule file for _learning_communication_generate_messages_check_deps_AddTwoInts.
 
@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
 include learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/progress.make
 
 learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts:
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_communication /home/ss/catkin_ws_hcx/src/learning_communication/srv/AddTwoInts.srv 
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_communication /home/ss/hcx/catkin_ws/src/learning_communication/srv/AddTwoInts.srv 
 
 _learning_communication_generate_messages_check_deps_AddTwoInts: learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts
 _learning_communication_generate_messages_check_deps_AddTwoInts: learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/build.make
@@ -87,10 +87,10 @@ learning_communication/CMakeFiles/_learning_communication_generate_messages_chec
 .PHONY : learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/build
 
 learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/learning_communication && $(CMAKE_COMMAND) -P CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/cmake_clean.cmake
 .PHONY : learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/clean
 
 learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/learning_communication /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/learning_communication /home/ss/catkin_ws_hcx/build/learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/learning_communication /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/learning_communication /home/ss/hcx/catkin_ws/build/learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_communication/CMakeFiles/_learning_communication_generate_messages_check_deps_AddTwoInts.dir/depend
 

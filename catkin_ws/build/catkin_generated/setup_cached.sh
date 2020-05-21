@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ss/catkin_ws_hcx/build"
+export PWD="/home/ss/hcx/catkin_ws/build"
+export ROS_PACKAGE_PATH="/home/ss/catkin_ws_hsx/src:/home/ss/catkin_ws_hcx/src:/home/ss/hcx/catkin_ws/src:/opt/ros/melodic/share"

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot.cpp" "/home/ss/catkin_ws_hcx/build/mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o"
-  "/home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup.cpp" "/home/ss/catkin_ws_hcx/build/mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o"
+  "/home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot.cpp" "/home/ss/hcx/catkin_ws/build/mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o"
+  "/home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup.cpp" "/home/ss/hcx/catkin_ws/build/mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ss/catkin_ws_hcx/src/mbot_bringup/include"
+  "/home/ss/hcx/catkin_ws/src/mbot_bringup/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

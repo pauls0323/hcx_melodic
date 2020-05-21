@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesAction.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesAction.h
 string
 -
 vector
@@ -28,7 +28,7 @@ learning_communication/DoDishesActionResult.h
 learning_communication/DoDishesActionFeedback.h
 -
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesActionFeedback.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesActionFeedback.h
 string
 -
 vector
@@ -50,7 +50,7 @@ actionlib_msgs/GoalStatus.h
 learning_communication/DoDishesFeedback.h
 -
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesActionGoal.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesActionGoal.h
 string
 -
 vector
@@ -72,7 +72,7 @@ actionlib_msgs/GoalID.h
 learning_communication/DoDishesGoal.h
 -
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesActionResult.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesActionResult.h
 string
 -
 vector
@@ -94,7 +94,7 @@ actionlib_msgs/GoalStatus.h
 learning_communication/DoDishesResult.h
 -
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesFeedback.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesFeedback.h
 string
 -
 vector
@@ -110,7 +110,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesGoal.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesGoal.h
 string
 -
 vector
@@ -126,7 +126,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ss/catkin_ws_hcx/devel/include/learning_communication/DoDishesResult.h
+/home/ss/hcx/catkin_ws/devel/include/learning_communication/DoDishesResult.h
 string
 -
 vector
@@ -142,13 +142,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ss/catkin_ws_hcx/src/learning_communication/src/DoDishes_server.cpp
+/home/ss/hcx/catkin_ws/src/learning_communication/src/DoDishes_server.cpp
 ros/ros.h
 -
 actionlib/server/simple_action_server.h
 -
 learning_communication/DoDishesAction.h
-/home/ss/catkin_ws_hcx/src/learning_communication/src/learning_communication/DoDishesAction.h
+/home/ss/hcx/catkin_ws/src/learning_communication/src/learning_communication/DoDishesAction.h
 
 /opt/ros/melodic/include/actionlib/action_definition.h
 

@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include mbot_bringup/CMakeFiles/mbot_bringup.dir/depend.make
@@ -78,30 +78,30 @@ include mbot_bringup/CMakeFiles/mbot_bringup.dir/progress.make
 include mbot_bringup/CMakeFiles/mbot_bringup.dir/flags.make
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o: mbot_bringup/CMakeFiles/mbot_bringup.dir/flags.make
-mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o: /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o -c /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup.cpp
+mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o: /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o"
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o -c /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup.cpp
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.i"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup.cpp > CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.i
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup.cpp > CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.i
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.s"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup.cpp -o CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.s
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup.cpp -o CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.s
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o: mbot_bringup/CMakeFiles/mbot_bringup.dir/flags.make
-mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o: /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o -c /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot.cpp
+mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o: /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o"
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o -c /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot.cpp
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mbot_bringup.dir/src/mbot.cpp.i"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot.cpp > CMakeFiles/mbot_bringup.dir/src/mbot.cpp.i
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot.cpp > CMakeFiles/mbot_bringup.dir/src/mbot.cpp.i
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mbot_bringup.dir/src/mbot.cpp.s"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot.cpp -o CMakeFiles/mbot_bringup.dir/src/mbot.cpp.s
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot.cpp -o CMakeFiles/mbot_bringup.dir/src/mbot.cpp.s
 
 # Object files for target mbot_bringup
 mbot_bringup_OBJECTS = \
@@ -111,46 +111,46 @@ mbot_bringup_OBJECTS = \
 # External object files for target mbot_bringup
 mbot_bringup_EXTERNAL_OBJECTS =
 
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/build.make
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libtf.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libtf2_ros.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libactionlib.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libmessage_filters.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libroscpp.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libtf2.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librosconsole.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librostime.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libcpp_common.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/catkin_ws_hcx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup"
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbot_bringup.dir/link.txt --verbose=$(VERBOSE)
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/build.make
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libtf.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libtf2_ros.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libactionlib.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libmessage_filters.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libroscpp.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libtf2.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librosconsole.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/librostime.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /opt/ros/melodic/lib/libcpp_common.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup: mbot_bringup/CMakeFiles/mbot_bringup.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/hcx/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup"
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbot_bringup.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-mbot_bringup/CMakeFiles/mbot_bringup.dir/build: /home/ss/catkin_ws_hcx/devel/lib/mbot_bringup/mbot_bringup
+mbot_bringup/CMakeFiles/mbot_bringup.dir/build: /home/ss/hcx/catkin_ws/devel/lib/mbot_bringup/mbot_bringup
 
 .PHONY : mbot_bringup/CMakeFiles/mbot_bringup.dir/build
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/clean:
-	cd /home/ss/catkin_ws_hcx/build/mbot_bringup && $(CMAKE_COMMAND) -P CMakeFiles/mbot_bringup.dir/cmake_clean.cmake
+	cd /home/ss/hcx/catkin_ws/build/mbot_bringup && $(CMAKE_COMMAND) -P CMakeFiles/mbot_bringup.dir/cmake_clean.cmake
 .PHONY : mbot_bringup/CMakeFiles/mbot_bringup.dir/clean
 
 mbot_bringup/CMakeFiles/mbot_bringup.dir/depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/catkin_ws_hcx/src /home/ss/catkin_ws_hcx/src/mbot_bringup /home/ss/catkin_ws_hcx/build /home/ss/catkin_ws_hcx/build/mbot_bringup /home/ss/catkin_ws_hcx/build/mbot_bringup/CMakeFiles/mbot_bringup.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ss/hcx/catkin_ws/src /home/ss/hcx/catkin_ws/src/mbot_bringup /home/ss/hcx/catkin_ws/build /home/ss/hcx/catkin_ws/build/mbot_bringup /home/ss/hcx/catkin_ws/build/mbot_bringup/CMakeFiles/mbot_bringup.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mbot_bringup/CMakeFiles/mbot_bringup.dir/depend
 

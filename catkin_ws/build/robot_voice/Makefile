@@ -68,10 +68,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -157,14 +157,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ss/catkin_ws_hcx/build/CMakeFiles /home/ss/catkin_ws_hcx/build/robot_voice/CMakeFiles/progress.marks
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/catkin_ws_hcx/build/CMakeFiles 0
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ss/hcx/catkin_ws/build/CMakeFiles /home/ss/hcx/catkin_ws/build/robot_voice/CMakeFiles/progress.marks
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/hcx/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/clean
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/preinstall
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/preinstall
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 robot_voice/CMakeFiles/tts_subscribe.dir/rule:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/CMakeFiles/tts_subscribe.dir/rule
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/CMakeFiles/tts_subscribe.dir/rule
 .PHONY : robot_voice/CMakeFiles/tts_subscribe.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ tts_subscribe: robot_voice/CMakeFiles/tts_subscribe.dir/rule
 
 # fast build rule for target.
 tts_subscribe/fast:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/build
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/build
 .PHONY : tts_subscribe/fast
 
 # Convenience name for target.
 robot_voice/CMakeFiles/iat_publish.dir/rule:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/CMakeFiles/iat_publish.dir/rule
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/CMakeFiles/iat_publish.dir/rule
 .PHONY : robot_voice/CMakeFiles/iat_publish.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ iat_publish: robot_voice/CMakeFiles/iat_publish.dir/rule
 
 # fast build rule for target.
 iat_publish/fast:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/build
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/build
 .PHONY : iat_publish/fast
 
 # Convenience name for target.
 robot_voice/CMakeFiles/voice_assistant.dir/rule:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/CMakeFiles/voice_assistant.dir/rule
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_voice/CMakeFiles/voice_assistant.dir/rule
 .PHONY : robot_voice/CMakeFiles/voice_assistant.dir/rule
 
 # Convenience name for target.
@@ -229,7 +229,7 @@ voice_assistant: robot_voice/CMakeFiles/voice_assistant.dir/rule
 
 # fast build rule for target.
 voice_assistant/fast:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/build
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/build
 .PHONY : voice_assistant/fast
 
 src/iat_publish.o: src/iat_publish.cpp.o
@@ -238,7 +238,7 @@ src/iat_publish.o: src/iat_publish.cpp.o
 
 # target to build an object file
 src/iat_publish.cpp.o:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o
 .PHONY : src/iat_publish.cpp.o
 
 src/iat_publish.i: src/iat_publish.cpp.i
@@ -247,7 +247,7 @@ src/iat_publish.i: src/iat_publish.cpp.i
 
 # target to preprocess a source file
 src/iat_publish.cpp.i:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/iat_publish.cpp.i
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/iat_publish.cpp.i
 .PHONY : src/iat_publish.cpp.i
 
 src/iat_publish.s: src/iat_publish.cpp.s
@@ -256,7 +256,7 @@ src/iat_publish.s: src/iat_publish.cpp.s
 
 # target to generate assembly for a file
 src/iat_publish.cpp.s:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/iat_publish.cpp.s
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/iat_publish.cpp.s
 .PHONY : src/iat_publish.cpp.s
 
 src/linuxrec.o: src/linuxrec.c.o
@@ -265,7 +265,7 @@ src/linuxrec.o: src/linuxrec.c.o
 
 # target to build an object file
 src/linuxrec.c.o:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/linuxrec.c.o
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/linuxrec.c.o
 .PHONY : src/linuxrec.c.o
 
 src/linuxrec.i: src/linuxrec.c.i
@@ -274,7 +274,7 @@ src/linuxrec.i: src/linuxrec.c.i
 
 # target to preprocess a source file
 src/linuxrec.c.i:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/linuxrec.c.i
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/linuxrec.c.i
 .PHONY : src/linuxrec.c.i
 
 src/linuxrec.s: src/linuxrec.c.s
@@ -283,7 +283,7 @@ src/linuxrec.s: src/linuxrec.c.s
 
 # target to generate assembly for a file
 src/linuxrec.c.s:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/linuxrec.c.s
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/linuxrec.c.s
 .PHONY : src/linuxrec.c.s
 
 src/speech_recognizer.o: src/speech_recognizer.c.o
@@ -292,7 +292,7 @@ src/speech_recognizer.o: src/speech_recognizer.c.o
 
 # target to build an object file
 src/speech_recognizer.c.o:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/speech_recognizer.c.o
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/speech_recognizer.c.o
 .PHONY : src/speech_recognizer.c.o
 
 src/speech_recognizer.i: src/speech_recognizer.c.i
@@ -301,7 +301,7 @@ src/speech_recognizer.i: src/speech_recognizer.c.i
 
 # target to preprocess a source file
 src/speech_recognizer.c.i:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/speech_recognizer.c.i
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/speech_recognizer.c.i
 .PHONY : src/speech_recognizer.c.i
 
 src/speech_recognizer.s: src/speech_recognizer.c.s
@@ -310,7 +310,7 @@ src/speech_recognizer.s: src/speech_recognizer.c.s
 
 # target to generate assembly for a file
 src/speech_recognizer.c.s:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/speech_recognizer.c.s
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/iat_publish.dir/build.make robot_voice/CMakeFiles/iat_publish.dir/src/speech_recognizer.c.s
 .PHONY : src/speech_recognizer.c.s
 
 src/tts_subscribe.o: src/tts_subscribe.cpp.o
@@ -319,7 +319,7 @@ src/tts_subscribe.o: src/tts_subscribe.cpp.o
 
 # target to build an object file
 src/tts_subscribe.cpp.o:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o
 .PHONY : src/tts_subscribe.cpp.o
 
 src/tts_subscribe.i: src/tts_subscribe.cpp.i
@@ -328,7 +328,7 @@ src/tts_subscribe.i: src/tts_subscribe.cpp.i
 
 # target to preprocess a source file
 src/tts_subscribe.cpp.i:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.i
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.i
 .PHONY : src/tts_subscribe.cpp.i
 
 src/tts_subscribe.s: src/tts_subscribe.cpp.s
@@ -337,7 +337,7 @@ src/tts_subscribe.s: src/tts_subscribe.cpp.s
 
 # target to generate assembly for a file
 src/tts_subscribe.cpp.s:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.s
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/tts_subscribe.dir/build.make robot_voice/CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.s
 .PHONY : src/tts_subscribe.cpp.s
 
 src/voice_assistant.o: src/voice_assistant.cpp.o
@@ -346,7 +346,7 @@ src/voice_assistant.o: src/voice_assistant.cpp.o
 
 # target to build an object file
 src/voice_assistant.cpp.o:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o
 .PHONY : src/voice_assistant.cpp.o
 
 src/voice_assistant.i: src/voice_assistant.cpp.i
@@ -355,7 +355,7 @@ src/voice_assistant.i: src/voice_assistant.cpp.i
 
 # target to preprocess a source file
 src/voice_assistant.cpp.i:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.i
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.i
 .PHONY : src/voice_assistant.cpp.i
 
 src/voice_assistant.s: src/voice_assistant.cpp.s
@@ -364,7 +364,7 @@ src/voice_assistant.s: src/voice_assistant.cpp.s
 
 # target to generate assembly for a file
 src/voice_assistant.cpp.s:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.s
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f robot_voice/CMakeFiles/voice_assistant.dir/build.make robot_voice/CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.s
 .PHONY : src/voice_assistant.cpp.s
 
 # Help Target
@@ -409,6 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

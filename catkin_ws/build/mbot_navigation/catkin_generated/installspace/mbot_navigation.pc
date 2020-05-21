@@ -1,4 +1,4 @@
-prefix=/home/ss/catkin_ws_hcx/install
+prefix=/home/ss/hcx/catkin_ws/install
 
 Name: mbot_navigation
 Description: Description of mbot_navigation

@@ -1,4 +1,4 @@
-prefix=/home/ss/catkin_ws_hcx/devel
+prefix=/home/ss/hcx/catkin_ws/devel
 
 Name: robot_voice
 Description: Description of robot_voice

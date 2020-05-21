@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ss/catkin_ws_hcx/src/mbot_bringup/include/mbot_bringup/mbot.h
+/home/ss/hcx/catkin_ws/src/mbot_bringup/include/mbot_bringup/mbot.h
 ros/ros.h
 -
 ros/time.h
@@ -22,15 +22,15 @@ boost/asio.hpp
 geometry_msgs/Twist.h
 -
 
-/home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot.cpp
+/home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot.cpp
 vector
 -
 mbot_bringup/mbot.h
-/home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup/mbot.h
+/home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup/mbot.h
 
-/home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup.cpp
+/home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup.cpp
 mbot_bringup/mbot.h
-/home/ss/catkin_ws_hcx/src/mbot_bringup/src/mbot_bringup/mbot.h
+/home/ss/hcx/catkin_ws/src/mbot_bringup/src/mbot_bringup/mbot.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

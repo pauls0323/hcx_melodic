@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_cmn.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_cmn.h
 msp_types.h
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_types.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_types.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_errors.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_errors.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_types.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_types.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/qisr.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/qisr.h
 msp_types.h
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/msp_types.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/msp_types.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/include/robot_voice/speech_recognizer.h
+/home/ss/hcx/catkin_ws/src/robot_voice/include/robot_voice/speech_recognizer.h
 
-/home/ss/catkin_ws_hcx/src/robot_voice/src/iat_publish.cpp
+/home/ss/hcx/catkin_ws/src/robot_voice/src/iat_publish.cpp
 stdlib.h
 -
 stdio.h
@@ -30,19 +30,19 @@ string.h
 unistd.h
 -
 robot_voice/qisr.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/qisr.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/qisr.h
 robot_voice/msp_cmn.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/msp_cmn.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/msp_cmn.h
 robot_voice/msp_errors.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/msp_errors.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/msp_errors.h
 robot_voice/speech_recognizer.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/robot_voice/speech_recognizer.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/robot_voice/speech_recognizer.h
 iconv.h
 -
 ros/ros.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/ros/ros.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/ros/ros.h
 std_msgs/String.h
-/home/ss/catkin_ws_hcx/src/robot_voice/src/std_msgs/String.h
+/home/ss/hcx/catkin_ws/src/robot_voice/src/std_msgs/String.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

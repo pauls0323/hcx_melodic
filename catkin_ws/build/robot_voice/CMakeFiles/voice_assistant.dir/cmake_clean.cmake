@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant"
-  "/home/ss/catkin_ws_hcx/devel/lib/robot_voice/voice_assistant.pdb"
+  "/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant"
+  "/home/ss/hcx/catkin_ws/devel/lib/robot_voice/voice_assistant.pdb"
   "CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o"
 )
 

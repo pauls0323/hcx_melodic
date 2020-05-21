@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/talker"
-  "/home/ss/catkin_ws_hcx/devel/lib/learning_communication/talker.pdb"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/talker"
+  "/home/ss/hcx/catkin_ws/devel/lib/learning_communication/talker.pdb"
   "CMakeFiles/talker.dir/src/talker.cpp.o"
 )
 

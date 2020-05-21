@@ -68,10 +68,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ss/catkin_ws_hcx/src
+CMAKE_SOURCE_DIR = /home/ss/hcx/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ss/catkin_ws_hcx/build
+CMAKE_BINARY_DIR = /home/ss/hcx/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -157,14 +157,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ss/catkin_ws_hcx/build/CMakeFiles /home/ss/catkin_ws_hcx/build/mbot_description/CMakeFiles/progress.marks
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/catkin_ws_hcx/build/CMakeFiles 0
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ss/hcx/catkin_ws/build/CMakeFiles /home/ss/hcx/catkin_ws/build/mbot_description/CMakeFiles/progress.marks
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/hcx/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/clean
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/preinstall
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/preinstall
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/rule:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/rule
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/rule
 .PHONY : mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ mbot_description_xacro_generated_to_devel_space_: mbot_description/CMakeFiles/mb
 
 # fast build rule for target.
 mbot_description_xacro_generated_to_devel_space_/fast:
-	cd /home/ss/catkin_ws_hcx/build && $(MAKE) $(MAKESILENT) -f mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/build.make mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/build
+	cd /home/ss/hcx/catkin_ws/build && $(MAKE) $(MAKESILENT) -f mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/build.make mbot_description/CMakeFiles/mbot_description_xacro_generated_to_devel_space_.dir/build
 .PHONY : mbot_description_xacro_generated_to_devel_space_/fast
 
 # Help Target
@@ -227,6 +227,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ss/catkin_ws_hcx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ss/hcx/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
